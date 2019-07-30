@@ -1,0 +1,20 @@
+.side-bar{
+    position: relative;
+    width: 100%;
+    float: none;
+}
+
+.main{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.article-list{
+    margin-right: 0%;
+}
+
+.side-bar .nav,
+.side-bar .tag-list{
+    text-align: center;
+}
