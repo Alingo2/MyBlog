@@ -104,3 +104,8 @@ p:first-letter
 {
     content: "🏴";
 }
+
+.container-small
+{
+    max-width: 500px;
+}

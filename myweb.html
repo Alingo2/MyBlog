@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.css">
         <link rel="stylesheet" href="myweb.css">
     </head>
     <title>
@@ -65,17 +66,35 @@
                     }
             </pre>
         </p>
-        <form class="bold">
-            username:<input type="text" placeholder="What's Your Problem？"><br>
-            password:<input type="password" placeholder="我不会偷看的"><br>
-            想要个头像吗？小火汁:<br>
-            <input type="file" name="avator"><br>
-            <button type="reset">
-                手滑写错了？
-            </button><br>
-            <button type="submit">
-                点我提交
-            </button>
+        <form class="container .container-small">
+            <div class>
+                <div class="form-group">
+                    username:<input type="text" class="form-control" placeholder="What's Your Problem？">
+                    password:<input type="password" class="form-control" placeholder="我不会偷看的">
+                    想要个头像吗？小火汁:
+                    <input type="file" name="avator">
+                    <label for="">你的老家？</label>
+                    <select class="form-control">
+                        <option value="1">贝贝村</option>
+                        <option value="1">辣辣村</option>
+                        <option value="1">海海村</option>
+                    </select>
+                    <div class="form-group">
+                        <label for="">充值金额</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">$
+                            <input type="text" class="form-control">
+                        </div>
+                        </div>
+                    </div>
+                    <button type="reset">
+                        手滑写错了？
+                    </button><br>
+                    <button type="submit">
+                        点我提交
+                    </button>
+                </div>
+            </div>
         </form>
     </body>
     <footer>
