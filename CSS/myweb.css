@@ -4,6 +4,11 @@ html
     text-align: center;
     line-height: 1.3;
 }
+body
+{
+    max-width: 800px;
+    margin: 0 auto;
+}
 img
 {
     width:100px;
@@ -57,7 +62,7 @@ footer
     font: italic;
 }
 
-[type]
+[type="text"]
 {
     border: 2px dashed #000;
 }

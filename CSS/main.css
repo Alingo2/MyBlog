@@ -62,6 +62,10 @@ a, body
     color: #454545;
 }
 
+.nav
+{
+    display: block;
+}
 .header .logo
 {
     line-height: 1;
@@ -102,7 +106,7 @@ a, body
 .article-list .item .status,
 .article .status
 {
-    font-size: 13px;
+    font-size: 17px;
     color: #ccc;
 }
 
@@ -136,4 +140,9 @@ footer
 #jump
 {
     width: 120px;
+}
+
+li > a
+{
+    color:#444;
 }
