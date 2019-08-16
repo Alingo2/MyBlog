@@ -48,6 +48,7 @@ a, body
 .side-bar .tag-list a:hover
 {
     color: #eee;
+    font-weight: 600;
 }
 
 .side-bar .nav a
@@ -95,8 +96,13 @@ a, body
     margin-bottom: 25px;
 }
 
+.article .title
+{
+    display: block;
+    text-align: center;
+}
 .article-list .item .title,
-.article .titile
+.article .title
 {
     color: #454545;
     font-size: 22px;
@@ -108,8 +114,12 @@ a, body
 {
     font-size: 17px;
     color: #ccc;
+    margin-top: 0px; 
 }
-
+.article .status
+{
+    text-align: center;
+}
 .article-list .item > *,
 .article > *
 {
@@ -142,7 +152,42 @@ footer
     width: 120px;
 }
 
-li > a
+.pager > a
 {
     color:#444;
+    transition: color 400ms;
+}
+
+.pager a:hover,
+.content a:hover
+{
+    color: #333;
+    font-weight: 700;
+    text-decoration: none;
+}
+.article-list .item .title:hover
+{
+    text-decoration: none;
+    color: #888;
+}
+.pager
+{
+    text-align: center;
+    padding: 0 0 0 0;
+    margin-bottom: 0px;
+}
+.content a:hover
+{
+    color: #999;
+}
+
+.nav a:hover,
+.tag-list a:hover
+{
+    text-decoration: none;
+}
+
+.content
+{
+    font-size: 18px;
 }
