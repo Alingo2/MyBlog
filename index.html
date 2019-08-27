@@ -16,13 +16,17 @@
         </label>
         <input id="menu-checkbox" type="checkbox">  
         <div class="header">
-        <a href="index.html" class="logo">Alingo</a>
+        <a href="index.html" class="logo" id="logo-active">Alingo</a>
         <abbr title="一只小菜鸡的博客">
             <div class="portrait">
                 <img src="img/portait.png" alt="图挂了💀">
             </div>
         </abbr>
-            <div class="intro">Now:北邮学生🐶</div>
+            <div class="intro">Now:北邮学生
+                <button id='trigger'>
+                    🐶
+                </button>
+            </div>
         </div>
         <div class="nav">
             <a href="aboutMe.html" class="item">关于我</a>
@@ -53,9 +57,17 @@
                     <a href="#">上一页</a>
                     <a href="#">下一页</a>
                 </ul>
+                <div class="pager">
+                        <input id="jump" type="text" placeholder="去其他页瞅瞅">
+                        <button id="jump-trigger">
+                            <img class="nobigger" src="img/jump.png" alt="图挂了💀">
+                        </button>
+                        <label for="jump-trigger">跳转</label>
+                </div>
             </div>
         </div>
         <footer>
+            <div id="show"></div>
             <div>
                 Good morning ,
             </div>
@@ -67,5 +79,7 @@
             </div> 
         </footer>
     </div>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

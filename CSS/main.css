@@ -150,16 +150,19 @@ footer
 #jump
 {
     width: 120px;
+    text-align: center;
 }
 
-.pager > a
+.pager > a,
+.pager > label
 {
     color:#444;
     transition: color 400ms;
 }
 
 .pager a:hover,
-.content a:hover
+.content a:hover,
+.pager > label:hover
 {
     color: #333;
     font-weight: 700;
@@ -190,4 +193,30 @@ footer
 .content
 {
     font-size: 18px;
+}
+
+.active
+{
+    color: #eee !important;
+}
+
+#logo-actives
+{
+    color:#fff;
+    text-decoration: underline;
+}
+
+#trigger{
+    background-color: #454545;
+    border-radius: 17px;
+}
+
+#jump-trigger{
+    background-color: #fff;
+    border-radius: 18px;
+    width: 40px;
+    height: 40px;
+}
+.nobigger{
+    max-width: 110%;
 }

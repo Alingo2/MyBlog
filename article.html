@@ -22,7 +22,11 @@
                 <img src="img/portait.png" alt="图挂了💀">
             </div>
             </abbr>
-            <div class="intro">Now:北邮学生🐶</div>
+            <div class="intro">Now:北邮学生
+                    <button id='trigger'>
+                        🐶
+                    </button>
+            </div>
         </div>
         <div class="nav">
             <a href="aboutMe.html" class="item">关于我</a>
@@ -51,11 +55,21 @@
                 Odio cupiditate vero assumenda suscipit nemo, maiores aut nulla reiciendis distinctio dolore repudiandae iure optio provident earum autem ex consequuntur magni placeat quisquam exercitationem quidem cumque at veritatis laboriosam! Necessitatibus.
                 Laudantium asperiores odio quae maxime ullam nesciunt veniam alias nihil optio porro ad facere, officia iure nisi rerum tempora ratione! Temporibus officia quo ad consequuntur nulla magni adipisci quidem maxime?
                 </div>
-                <input id="jump" type="text" placeholder="去其他页瞅瞅">
-                <button>跳转</button>
+                <ul class="pager">
+                        <a href="#">上一页</a>
+                        <a href="#">下一页</a>
+                    </ul>
+                <div class="pager">
+                    <input id="jump" type="text" placeholder="去其他页瞅瞅">
+                    <button id="jump-trigger">
+                        <img class="nobigger" src="img/jump.png" alt="图挂了💀">
+                    </button>
+                    <label for="jump-trigger">跳转</label>
+                </div>
             </div>
         </div>
         <footer>
+            <div id="show"></div>
             <div>
                 Good morning ,
             </div>
@@ -67,5 +81,7 @@
             </div>   
         </footer>
     </div>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
