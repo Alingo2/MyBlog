@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../CSS/bootstrap.css">
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" media="(max-width: 821px)" href="../CSS/mobile.css">
-    <title>Share</title>
+    <title>Donation</title>
     <link rel="icon" href="../img/portait.png" type="image/x-icon"/>
 </head>
 <body background="../img/background.jpg" class="bg">
@@ -21,12 +21,25 @@
             <a href="index.html" class="logo" id="logo-active">Alingo</a>
                 <div class="portrait">
                     <abbr title="一只小菜鸡的博客">
-                    <img src="../img/portait.png" alt="图挂了💀">
+                    <img src="../img/portait.png" id="por" alt="图挂了💀">
                     </abbr>
-                    <div class="visited">访问过的小伙伴:</div>
-                    <span id="busuanzi_container_site_pv">
-                        &nbsp; <span id="busuanzi_value_site_pv"></span>
-                    </span>
+                    <div class="icon-list">
+                        <a href="https://github.com/Alingo2" target="_blank">
+                        <img src="../img/github.png" class="nobigger sm-icon" alt="图挂了💀"></a>
+                        <a href="https://www.douban.com/people/173377005/" target="_blank">
+                        <img src="../img/douban.png" class="nobigger sm-icon" alt="图挂了💀"></a>            
+                        <a href="https://www.zhihu.com/people/feng-yl-65/activities" target="_blank">
+                        <img src="../img/zhihu.png" class="nobigger sm-icon" alt="图挂了💀"></a>      
+                        <a href="https://weibo.com/5514257723/profile?topnav=1&wvr=6" target="_blank">
+                        <img src="../img/weibo.png" class="nobigger sm-icon" alt="图挂了💀"></a>
+                        <a href="https://steamcommunity.com/profiles/76561198096910827/" target="_blank">
+                        <img src="../img/steam.png" class="nobigger sm-icon" alt="图挂了💀"></a>       
+                    </div>    
+                    <div class="visited"><img class="sm-icon nobigger" src="../img/browse.png" alt="图挂了💀">:
+                        <span id="busuanzi_container_site_pv">
+                            &nbsp; <span id="busuanzi_value_site_pv"></span>
+                        </span>
+                    </div>
                 </div>
                 <div class="intro">Me:北邮学生
                     <button id='trigger'>
@@ -38,11 +51,9 @@
             <a href="aboutMe.html" class="item">关于我</a>
             <a href="contact.html" class="item">联系我</a>
             <a href="donation.html" class="item">捐助我</a>
-        </div>
-        <div class="tag-list">
-                <a href="share.html" class="item active">实用工具分享</a>
-                <a href="#" class="item">烂笔头</a>
-                <a href="../article1.html" class="item">踩过的坑</a>
+            <a href="share.html" class="item active">实用工具分享</a>
+            <a href="#" class="item">烂笔头</a>
+            <a href="../article1.html" class="item">踩过的坑</a>
         </div>
     </div>
     <div class="main">
@@ -50,8 +61,8 @@
             <div class="content">
                 <a href="https://greasyfork.org/zh-CN">1.Tampermonkey油猴脚本下载：Greasy Fork</a><hr>
                 <a href="http://www.yingdev.com/projects/tickeys">2.让你的打字更有节奏感：Tickeys</a><hr> 
+                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam eos molestiae, dicta sapiente itaque quis nemo temporibus enim porro voluptatibus, a aliquam ipsam laboriosam accusamus commodi nam saepe nisi consectetur?</div>
             </div>
-            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam eos molestiae, dicta sapiente itaque quis nemo temporibus enim porro voluptatibus, a aliquam ipsam laboriosam accusamus commodi nam saepe nisi consectetur?</div>
         </div>
         <footer>
             <div id="show"></div>
@@ -63,8 +74,8 @@
             </div>
         </footer>
     </div>
-    <script src="../jQuery.js"></script>
-    <script async src="../busuanzi.js"></script>
-    <script src="../main.js"></script>
+    <script src="../js/jQuery.js"></script>
+    <script async src="../js/busuanzi.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
