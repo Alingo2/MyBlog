@@ -28,9 +28,9 @@
                     <a href="https://github.com/Alingo2" target="_blank">
                     <img src="../img/github.png" class="nobigger sm-icon" alt="图挂了💀"></a>
                     <a href="https://www.douban.com/people/173377005/" target="_blank">
-                    <img src="../img/douban.png" class="nobigger sm-icon" alt="图挂了💀"></a>            
+                    <img src="../img/douban.png" class="nobigger sm-icon" alt="图挂了💀"></a>       
                     <a href="https://www.zhihu.com/people/feng-yl-65/activities" target="_blank">
-                    <img src="../img/zhihu.png" class="nobigger sm-icon" alt="图挂了💀"></a>      
+                    <img src="../img/zhihu.png" class="nobigger sm-icon" alt="图挂了💀"> </a>      
                     <a href="https://weibo.com/5514257723/profile?topnav=1&wvr=6" target="_blank">
                     <img src="../img/weibo.png" class="nobigger sm-icon" alt="图挂了💀"></a>
                     <a href="https://steamcommunity.com/profiles/76561198096910827/" target="_blank">
@@ -40,6 +40,10 @@
                     <span id="busuanzi_container_site_pv">
                         &nbsp; <span id="busuanzi_value_site_pv"></span>
                     </span>
+                </div>
+                <div class="intro">
+                    RSS订阅
+                    <a href="../../atom.xml" target="_blank" class="item"><img src="../img/rss.png" class="nobigger sm-icon" alt="图挂了💀"></a>
                 </div>
             </div>
             <div class="intro">Me:北邮学生
@@ -53,7 +57,7 @@
             <a href="contact.html" class="item">联系我</a>
             <a href="donation.html" class="item">捐助我</a>
             <a href="share.html" class="item">实用工具分享</a>
-            <a href="#" class="item">烂笔头</a>
+            <a href="../memory1.html" class="item">烂笔头</a>
             <a href="../article1.html" class="item">踩过的坑</a>
             <a href="history.html" class="item">大事记</a>
             <a href="tag.html" class="item">归档</a>
@@ -122,8 +126,29 @@
                     </div>
                 </div>
             </div>
-            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde provident architecto alias veritatis quae, nisi quisquam? Non in fugiat blanditiis maxime consectetur, esse omnis mollitia doloribus facere iusto praesentium nostrum.</div>
-            <!--<div class="container">
+        </div>
+        <div class="article-list">
+            <div class="item">
+                <a href="../article1.html" class="title">3.大二开学小记</a>
+                <div class="status">
+                    <span class="badge badge-danger"> 发布于:2019-9-8 </span>
+                    <span class="badge badge-warning"> 阅读: 
+                        <span id="busuanzi_container_page_pv">
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                    <span class="badge badge-success"> 标签:#生活 </span>
+                </div>
+                <div class="content">
+                    <p>  时间一下就晃到了开学，暑假过得懒散、堕落又迷茫，也沾上了好久不碰的游戏，麻痹自己说是劳逸结合，能更放松，事实确是游戏瘾一上来后又是不能自已。  </p>
+                    ......
+                    <div class="seemore">
+                        <a class="seemore" href="../article3.html">(查看全文)</a>
+                    </div>
+                </div>
+                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe numquam animi esse iste sed fugiat officiis vero, soluta dolore tempora possimus voluptatem excepturi. Sit dolor, molestias error fuga voluptates quisquam?</div>
+            </div>
+                        <!--<div class="container">
                 <ul class="pager">
                     <a href="#" class="front">上一页</a>
                     <div class="cur_page"></div>
@@ -138,25 +163,25 @@
                 </div>
             </div> -->
             <!-- Gitalk 评论 start  -->
-                <link rel="stylesheet" href="../css/gitalk.css">
-                <script src="../gitalk.js"></script>
+            <link rel="stylesheet" href="../css/gitalk.css">
+            <script src="../js/gitalk.js"></script>
 
-                <div id="gitalk-container"></div>
-                    <script type="text/javascript">
-                    var gitalk = new Gitalk({
+            <div id="gitalk-container"></div>
+                <script type="text/javascript">
+                var gitalk = new Gitalk({
 
-                    // gitalk的主要参数
-                        clientID: '4f56daafab48733897d8',
-                        clientSecret: '4a0a577ac599fd55c448ad5237aacf51700f13ed',
-                        repo: 'MyBlogComment',
-                        owner: 'Alingo2',
-                        admin: ['Alingo2'],
-                        id: 'window.location.index.html',
-                    
-                    });
-                    gitalk.render('gitalk-container');
-                </script>
-                <!-- Gitalk end -->
+                // gitalk的主要参数
+                    clientID: '4f56daafab48733897d8',
+                    clientSecret: '4a0a577ac599fd55c448ad5237aacf51700f13ed',
+                    repo: 'MyBlogComment',
+                    owner: 'Alingo2',
+                    admin: ['Alingo2'],
+                    id: 'window.location.index.html',
+                
+                });
+                gitalk.render('gitalk-container');
+            </script>
+            <!-- Gitalk end -->
         </div>
         <footer>
             <div id="show"></div>
